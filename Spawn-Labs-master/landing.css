@@ -1270,6 +1270,8 @@
 /* The .footer-space class allows the element to take up the remaining space in the footer */
 .footer-content {
   display: flex;
+  
+
 }
 
 .footer-heading {
@@ -1302,4 +1304,14 @@
   border-radius: 50%;
   align-items: center;
 }
+.footer-box4 {
+  width: 45%; /* Adjust the width as needed */
+  text-align: left;
+}
+.footer-box5{
+
+    width: 45%; /* Adjust the width as needed */
+    text-align: left;
+}
+
 
