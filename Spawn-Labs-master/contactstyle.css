@@ -40,8 +40,9 @@ h1{
 }
 
  .image-container {
-  width: 70%;
+  width: 60%;
   overflow-y: unset;
+  margin-left: 20px;
 }
 img{
   width: 100%;
@@ -49,9 +50,9 @@ img{
   margin-left: 20px;
 }
 .container {
-  margin: 0px;
+  margin-left: 20px;
   position: relative;
-  max-width: 900px;
+  max-width: 670px;
   width: 100%;
   height: 900px;
   padding: 50px;
@@ -246,57 +247,54 @@ img{
     align-items: center;
     justify-content: space-between;
     background-color: #292929f5;
-    height: 5%;
+    height: 50px;
     overflow: auto;
-    position: fixed;
+    position: relative !important;
     top: 0;
     width: 100%;
     z-index: 1000;
     overflow: hidden;
-    
-}
-
-/* The .navbar-logo class sets the styles for the logo inside the navigation bar */
-.navbar-logo {
-    height: 85%;
+  }
+  
+  /* The .navbar-logo class sets the styles for the logo inside the navigation bar */
+  .navbar-logo {
+    height:75%;
     width: 2.5%;
     margin-left: 1.5%;
-}
-
-/* The .nav-links class sets the styles for the container of the navigation links */
-.nav-links {
+  }
+  
+  /* The .nav-links class sets the styles for the container of the navigation links */
+  .nav-links {
     display: flex;
     justify-content: flex-end;
     width: auto;
-}
-.navbar-logo img {
+  }
+  .navbar-logo img {
     /* Set the height of the image to be 100% of the navbar height */
     height: 100%;
-}
-
-/* The .nav-links a class sets the styles for the navigation links */
-.nav-links a {
+  
+  }
+  
+  /* The .nav-links a class sets the styles for the navigation links */
+  .nav-links a {
     color: #ffffff;
     text-align: center;
-    padding: 35px 30px;
+    padding: 50px 23px;
     text-decoration: none;
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-}
-
-/* The .nav-links a:hover class sets the styles for the navigation links when they are hovered over */
-.nav-links a:hover {
+  }
+  
+  /* The .nav-links a:hover class sets the styles for the navigation links when they are hovered over */
+  .nav-links a:hover {
     color: rgb(255, 255, 255);
     background-color: #1b1b1b7f;
-}
-
-/* The .nav class sets the styles for the navigation container */
-.nav {
-    background-color: #1B1B1B;
-    overflow: auto;
-}
-
-/* The .nav a class sets the styles for the links inside the navigation container */
-.nav a {
+  }
+  
+  /* The .nav class sets the styles for the navigation container */
+  
+  
+  /* The .nav a class sets the styles for the links inside the navigation container */
+  .nav a {
     float: right;
-    display: block;
-}
+     display: block; 
+  }
